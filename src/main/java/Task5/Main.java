@@ -11,5 +11,9 @@ public class Main {
 
         System.out.println(line.centerPoint());
         System.out.println(line.getLineLength());
+
+        Line line1 = new Line(1,2,3,4);
+        System.out.println(line1.centerPoint());
+        System.out.println(line1.getLineLength());
     }
 }
