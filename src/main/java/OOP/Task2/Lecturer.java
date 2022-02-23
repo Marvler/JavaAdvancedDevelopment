@@ -1,4 +1,4 @@
-package Task2;
+package OOP.Task2;
 
 public class Lecturer extends Person{
 

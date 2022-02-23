@@ -1,6 +1,6 @@
-package Task5;
+package OOP.Task5;
 
-import Task1.Point2D;
+import OOP.Task1.Point2D;
 
 public class Main {
 

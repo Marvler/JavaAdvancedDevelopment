@@ -1,4 +1,4 @@
-package Task1;
+package OOP.Task1;
 
 public class Point2D {
 

@@ -1,4 +1,4 @@
-package Task6;
+package OOP.Task6;
 
 public class MovablePoint implements Movable {
 

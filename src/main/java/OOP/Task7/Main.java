@@ -1,4 +1,4 @@
-package Task7;
+package OOP.Task7;
 
 public class Main {
 
