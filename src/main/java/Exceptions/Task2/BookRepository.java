@@ -11,11 +11,13 @@ public class BookRepository {
         listOfBooks.add(book);
     }
 
-    public void removeBook(Book book) {
+    public void removeBook(Book book) throws BookNotFoundException{
         for (Book booky : listOfBooks) {
             if (book.equals(booky)) {
                 listOfBooks.remove(book);
                 return;
+            } else {
+                throw new BookNotFoundException(String.format("Book with %d not found",book.getId()));
             }
         }
     }
