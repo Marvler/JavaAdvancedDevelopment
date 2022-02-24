@@ -7,7 +7,7 @@ public class Main {
 
         SdaArrayList<Integer> myList = new SdaArrayList<>();
 
-        myList.add(8);
+        myList.add(null);
         myList.add(3);
         myList.add(54);
         myList.add(15);

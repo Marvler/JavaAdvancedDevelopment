@@ -1,4 +1,4 @@
-package OOP.Task7;
+package Exceptions.Task1.Task7;
 
 public interface GeometricObject {
 

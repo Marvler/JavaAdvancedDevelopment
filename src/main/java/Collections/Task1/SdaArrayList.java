@@ -12,9 +12,6 @@ public class SdaArrayList<T> {
     }
 
     public void getByIndex(int index) {
-        if (index < 0 || index >= elementArray.length) {
-            throw new IndexOutOfBoundsException("Please provide valid index number");
-        }
         System.out.println(elementArray[index]);
     }
 
@@ -25,13 +22,9 @@ public class SdaArrayList<T> {
         elementArray[size++] = t;
     }
 
-    public void removeAtIndex(int index){
-        if (index < 0 || index >= elementArray.length) {
-            throw new IndexOutOfBoundsException("Please provide valid index number");
-        }
-
-        for(int i = index; i < size -1; i++){
-            elementArray[i] = elementArray[i+1];
+    public void removeAtIndex(int index) {
+        for (int i = index; i < size - 1; i++) {
+            elementArray[i] = elementArray[i + 1];
         }
         size--;
         decreaseSize();
